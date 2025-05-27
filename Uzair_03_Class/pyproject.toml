@@ -1,0 +1,22 @@
+[project]
+name = "uzair-03-class"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MusadiqUrRahman", email = "syedmusadiq.rahman@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.5.5",
+    "litellm>=1.67.5",
+    "openai-agents>=0.0.14",
+    "streamlit>=1.45.0",
+]
+
+[project.scripts]
+uzair-03-class = "uzair_03_class:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

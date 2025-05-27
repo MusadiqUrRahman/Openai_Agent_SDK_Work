@@ -1,0 +1,22 @@
+[project]
+name = "q3-revision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MusadiqUrRahman", email = "syedmusadiq.rahman@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.5.5",
+    "openai-agents[litellm]>=0.0.14",
+    "python-dotenv>=1.1.0",
+    "tavily-python>=0.7.2",
+]
+
+[project.scripts]
+q3-revision = "q3_revision:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

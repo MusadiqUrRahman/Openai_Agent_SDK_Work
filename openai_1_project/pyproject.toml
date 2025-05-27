@@ -1,0 +1,20 @@
+[project]
+name = "openai-1-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MusadiqUrRahman", email = "syedmusadiq.rahman@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai-agents>=0.0.8",
+]
+
+[project.scripts]
+openai-1-project = "openai_1_project:main"
+agent_run = "openai_1_project.main:run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
