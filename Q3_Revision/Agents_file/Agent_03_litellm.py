@@ -2,7 +2,7 @@
 #"""                         🔹 Simple Agent Powered by litellm and sync🤖✨                     """
 #                   ===========================================================
 
-from agents import Agent, Runner, set_tracing_disabled #OpenAIChatCompletionsModel,   #AsyncOpenAI
+from agents import Agent, Runner, set_tracing_disabled #OpenAIChatCompletionsModel
 from agents.extensions.models.litellm_model import LitellmModel
 from dotenv import load_dotenv
 import os

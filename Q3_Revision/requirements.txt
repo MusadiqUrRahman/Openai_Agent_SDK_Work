@@ -1,0 +1,7 @@
+chainlit==1.0.400
+openai>=1.30.1
+pydantic==1.10.13
+litellm==1.36.21
+crewai==0.27.10
+python-dotenv>=1.0.1
+traceloop-sdk==1.0.14
